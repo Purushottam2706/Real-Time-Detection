@@ -5,7 +5,9 @@ import cv2 as cv
 import cvzone
 import math
 
+import os
 
+print(os.path.exists("IMG/1.png"))
 
 
 
@@ -138,10 +140,11 @@ def tracker():
             cv.destroyAllWindows()
 
 
+
   
    
 # detect(0)
-detect("VIDEOS/bikes.mp4")
+# detect("VIDEOS/bikes.mp4")
 # detect("VIDEOS/people.mp4")
 # detect("VIDEOS/motorbikes-1.mp4")
 # tracker()
